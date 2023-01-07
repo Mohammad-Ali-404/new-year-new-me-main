@@ -1,0 +1,195 @@
+*{
+    margin: 0 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.btn-primary{
+    background-color: lightsalmon;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    padding: 15px;
+    border: 1px solid lightsalmon;
+    border-radius: 5%;
+    cursor: pointer;
+}
+/* Header section style */
+Header{
+    background-image: url(./images/banner/banner2.png);
+    background-size: cover;
+    height: 650px;
+    width: 1536px;
+    margin-top:-49px ;
+}
+.nav-title{
+    font-size: 40px;
+    font-weight: 900;
+    cursor: pointer;
+}
+.text-primary{
+    color: brown;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;  
+}
+nav ul{
+    display: flex;
+    
+}
+nav li{
+    list-style: none;
+    margin-right: 35px;
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+}
+/* Banner section style */
+.banner{
+    text-align: right ;
+    margin: 100px ;
+    margin-left: 900px;
+    
+}
+.banner-title{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.banner-description{
+    color: rgb(0, 0, 0);
+    margin: 20px 0;
+}
+/* Main section style */
+.success-history{
+    display: flex;
+    margin: 50px 90px;
+}
+.success{
+    margin: 200px ;
+}
+.section-title{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.section-description{
+    color: rgb(114, 111, 111);
+    margin: 20px 0;
+}
+.success-things{
+    margin: 15px;
+    color: rgb(114, 111, 111);
+}
+.fa-color{
+    color: aqua;
+}
+/* My Plans style */
+.plan-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.plan-description{
+    display: flex;
+    margin: 80px 60px;
+}
+.my-plan{
+   margin-left: 150px;
+}
+.course-name{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.course-description{
+    color: rgb(114, 111, 111);
+    font-size: 23px;
+    margin-top:15px ;
+}
+
+/* Watch Section style */
+.btn-watch{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 117, 4);
+    height: 50px ;
+    width: 130px;
+    font-size: 20px;
+    font-weight: 700;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5%;
+    cursor: pointer;
+    margin-bottom: 60px;
+    margin-left: 70px;
+}
+.watch-section{
+    margin: 0px 100px;
+    background-image: linear-gradient(to right, #005fac, rgba(255, 255, 255, 0.068)), url(./images/watch.png);
+    border-radius: 10px;
+    margin-bottom: 120px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.watch-title{
+    width: 600px;
+}
+.watch-description{
+    font-size: 30px;
+    font-size: 800;
+    color: rgb(255, 255, 255);
+    /* margin-bottom: 10px; */
+    padding: 60px 80px;
+}
+/* Footer Section */
+.future-title{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.future-description{
+    margin-bottom: 15px;
+}
+.my-mail{
+    cursor: pointer;
+}
+.contact-number{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.icon{
+    margin-right: 15px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.footer-section{
+    display: flex;
+    background-color: rgb(34, 32, 32);
+    padding: 70px 100px;
+    margin-top: 70px;
+}
+.footer-description{
+    color: white;
+    margin-right: 200px;
+
+}
+.subscribe-title{
+    font-size: 20px;
+    color: aliceblue;
+    margin-bottom: 15px;
+}
+.footer-btn{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 117, 4);
+    height: 50px ;
+    width: 130px;
+    font-size: 20px;
+    font-weight: 700;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5%;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.footer-email{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    border-radius: 5%;
+    background-color: rgb(34, 32, 32);
+    border: 1px solid white;
+}
